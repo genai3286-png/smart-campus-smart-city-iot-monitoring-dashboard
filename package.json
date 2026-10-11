@@ -1,0 +1,16 @@
+{
+  "name": "@smart-campus/contracts",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Shared domain contracts for the Smart Campus IoT Monitoring Dashboard.",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit -p tsconfig.json"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  }
+}
